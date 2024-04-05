@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.section_ubicacion {
+	clear:both;
+}
+
+.section_ubicacion img {
+	width:90px;
+}
+
+h1 {
+	text-transform:capitalize;
+	text-align: center;
+}

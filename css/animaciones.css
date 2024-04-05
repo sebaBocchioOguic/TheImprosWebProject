@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ARCHIVO DE ANIMACIONES CSS3 */
+
+@keyframes boton_menu_nav {
+/*	Animación de menú LOSTFOCUS */
+	from {
+		background-color: #09C;
+/*		color: white;*/
+		}
+	to 	{
+		background-color: white;
+/*		background-color: #CC9;	*/
+/*		color: #42413C;*/
+		}
+}
+
+@keyframes boton_menu_nav_hover {
+/*	Animación de menú HOVER */
+	from {
+		background-color: white;
+/*		background-color: #CC9;	*/
+/*		color: #42413C;*/
+		}
+	to {
+		background-color: #09C;
+/*		color: white;*/
+		}
+}
+
+@keyframes imagen_portada_saturacion{
+	0%		{ filter: saturate(100%); }
+	40%		{ filter: saturate(100%); }
+	50%		{ filter: saturate(1000%); }
+	60%		{ filter: saturate(100%); }
+	100%	{ filter: saturate(100%); }
+}
+
+
+@keyframes calendario_colores{
+	0%		{ filter: hue-rotate(0deg); }
+	50%		{ filter: hue-rotate(180deg); }
+	100%	{ filter: hue-rotate(360deg); }
+}
+
+
+/*
+@keyframes menu_desplegable {
+	from {display: inline-block;}
+	to {display: block;}
+}
+*/
